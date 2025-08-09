@@ -1,0 +1,99 @@
+label > input[type="file"] {
+    display: none;
+}
+
+span[validation-for]:empty {
+    display: none;
+}
+
+span[validation-for] {
+    background-color: var(--bs-warning);
+    padding: 2px 12px;
+    display: inline-block;
+    border-radius: 4px;
+    font-size: .75rem;
+    color: var(--bs-dark);
+    margin-top: .25rem;
+    text-align: left;
+    text-wrap: inherit;
+}
+
+.ar-1-1 {
+    aspect-ratio: 1/1 !important;
+}
+
+.ar-16-9 {
+    aspect-ratio: 16/9 !important;
+}
+
+.ar-16-75 {
+    aspect-ratio: 16/7.5 !important;
+}
+
+table.dataTable tbody td.sorting_1 {
+    background-color: unset !important;
+}
+
+.flex-gap-05 {
+    gap: 0.5rem !important;
+}
+
+.flex-gap-1 {
+    gap: 1rem !important;
+}
+
+.datepicker {
+    padding: 4px !important;
+}
+
+.datepicker td, .datepicker th {
+    padding: .4rem;
+}
+
+body.vertical-collpsed #side-profile {
+    display: none !important;
+}
+
+#side-profile a.icon {
+    background: var(--bs-white) !important;
+    color: var(--bs-primary) !important;
+    width: 32px !important;
+    height: 32px !important;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2rem;
+}
+
+#side-profile a.icon i {
+    color: var(--bs-primary) !important;
+}
+
+.img-cover-center {
+    object-fit: cover !important;
+    object-position: center !important;
+}
+
+.text-ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.form-group {
+    margin-bottom: .75rem;
+}
+
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.msg-len {
+  width: 50ch;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lh-2 {
+    line-height: 2 !important;
+}
