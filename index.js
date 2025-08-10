@@ -10,10 +10,13 @@ import configApp from '#configs/app';
 import routers from '#routers/index';
 import hbsHelpers from '#systems/handlebars';
 import hbsViewSys from '#systems/view';
+import loadDependencies from '#systems/dependencies';
 
 async function bootstrap() {
+    await loadDependencies();
 
     const app = express();
+
     app.use(boot());
     app.use(hbsViewSys());
     

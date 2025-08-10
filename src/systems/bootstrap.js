@@ -1,7 +1,5 @@
 import express from 'express';
-import loadDependencies, { dependencies } from '#systems/dependencies';
-
-loadDependencies();
+import { dependencies } from '#systems/dependencies';
 
 const controller = (str) => {
 	return async (req, res, next) => {
